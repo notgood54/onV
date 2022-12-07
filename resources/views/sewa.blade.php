@@ -1,5 +1,4 @@
 <x-layout>
-    <title>{{$title}}</title>
     <div class="container" id="sewa-content">
         <div class="container p-5" id="container-intro-sewa">
             <div class="container" id="intro-sewa">
@@ -9,7 +8,10 @@
                     </div>
                     <div class="col-md-7">
                     <p class="intro-white float-right">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend felis eros, id lacinia dolor hendrerit a. Nullam elementum est auctor purus bibendum pharetra. Phasellus in metus ultrices, condimentum dui ut, feugiat nisl. Nunc nec fringilla tortor. Vivamus sit amet pulvinar ligula.
+                        1. Isi data diri anda pada formulir sewa lapangan<br>
+                        2. Pilih lapangan mana yang akan anda sewa  <br>
+                        3. Pilih tanggal dan waktu sewa lapangan <br>
+                        4. Klik Bayar untuk melanjutkan ke proses pembayaran <br>
                     </p>
                     </div>
                 </div>
@@ -30,6 +32,10 @@
                   <label for="inputEmail" class="form-label">Email</label>
                   <input type="email" class="form-control rounded-pill" id="inputEmail">
                 </div>
+                <div class="col-6">
+                    <label for="inputAddress" class="form-label">Alamat</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Jl. Soekarno Hatta">
+                  </div>
                 <div class="col-md-6">
                     <label for="inputLapangan" class="form-label">Lapangan yang Disewa</label>
                     <select id="inputLapangan" class="form-select rounded-pill">
@@ -37,17 +43,9 @@
                       <option>Lapangan 2</option>
                     </select>
                 </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress2" class="form-label">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
                 <div class="col-md-6">
-                  <label for="inputCity" class="form-label">City</label>
-                  <input type="text" class="form-control" id="inputCity">
+                  <label for="inputCity" class="form-label">Tanggal Sewa</label>
+                  <input type="date" class="form-control" id="inputtTanggal">
                 </div>
                 <div class="col-md-2">
                   <label for="inputZip" class="form-label">Zip</label>
