@@ -9,7 +9,13 @@ class Pesanan extends Model
 {
     use HasFactory;
 
+    protected $id;
     protected $fillable=[
-
+        'nama',
+        'noTelp',
+        'email',
+        'alamat',
+        'tanggal',
+        'jam',
     ];
 }
